@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color: lightgrey;
+      text-align: center;
+      padding: 0px;
+      font-size:20x;
+     }
+
+
+
+
+
+#Age{
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+        
+        #Gender {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+        
+        #Height {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+        
+        #Weight {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+#Duration {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+
+
+
+#Body_Temp {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+
+
+#Heart_Rate {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+
+
+
+
+
+
+
+
+</style>
+</head>
+<body>
+	<h3>Calories Burnt Prediction</h3>
+
+<div>
+<form action="/result" method="POST">
+
+<label for="Gender">Enter 0 for Male & Enter 1 for Female</label>
+<input type="text" id="Gender" name="Gender">
+<br>
+
+<label for="Age">Enter Age</label>
+<input type="text" id="Age" name="Age">
+<br>
+<label
+ for="Height">Enter Height</label>
+<input type="text" id="Height" name="Height">
+<br>
+
+<label for="Weight">Enter Weight</label>
+<input type="text" id="Weight" name="Weight">
+<br>
+
+<label for="Duration">Duration of Exercise</label>
+<input type="text" id="Duration" name="Duration">
+<br>
+
+<label for="Heart_Rate">Heart Rate</label>
+<input type="text" id="Heart_Rate" name="Heart_Rate">
+<br>
+
+<label for="Body_Temp">Body Tempreture</label>
+<input type="text" id="Body_Temp" name="Body_Temp"></input>
+<br>
+
+
+<input type="submit" value="Submit">
+<br>
+{{ prediction }}
+
+</form>
+</div>
+</body>
+</html>
