@@ -9,6 +9,5 @@ Follow this Steps to run this project in your system:
 
 About this project :
 
-Problem Statement: Now a days everyone wants to live healthy life and most of the people do exercise 
-on daily basis.
+I applied different regression techniques to predict the data of calories burned in the exercises from the knowledge of duration (t), heart rate (h), body temperature (T), age (A), weight (W), height (H) and gender (G). It was verified that the variable that most influences the burning of calories is duration, followed by heart rate and body temperature.
 
